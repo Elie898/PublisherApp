@@ -49,6 +49,8 @@ app.MapBookEndpoints();
 
 app.MapArtistEndpoints();
 
+app.MapCoverEndpoints();
+
 app.Run();
 
 internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
